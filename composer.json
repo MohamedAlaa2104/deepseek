@@ -1,0 +1,23 @@
+{
+    "name": "mohamedaladdin/deepseek",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mohamedaladdin\\Deepseek\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Alaa",
+            "email": "mohamedalaa2104@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mohamedaladdin\\Deepseek\\DeepseekServiceProvider"
+            ]
+        }
+    }
+}
