@@ -19,5 +19,6 @@
                 "Mohamedaladdin\\Deepseek\\DeepseekServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
