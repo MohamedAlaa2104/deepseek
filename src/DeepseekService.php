@@ -21,6 +21,7 @@ class DeepseekService
     public function getChatCompletion(array $messages, string $model = 'deepseek-chat'): Response
     {
         return Http::withToken(config('deepseek.api_key'))
+        ->timeout(config('deepseek.timeout'))
         ->post('https://api.deepseek.com/v1/chat/completions', [
             'messages'  => $messages,
             'model'     => $model,
